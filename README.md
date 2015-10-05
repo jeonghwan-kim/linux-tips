@@ -45,6 +45,14 @@ root 계정 활성화: `/etc/ftpusers` 파일에서 root를 주석처리
 netstat -an | grep "LISTEN"
 ```
 
+## ps
+
+프로세스 확인:
+
+```
+pa aux
+```
+
 ## rsync
 로컬파일을 리모트와 싱크함
 
@@ -87,6 +95,13 @@ tar cvf [파일이름.tar] [압축할 파일 이름들 ...]
 
 ```
 tar zxvf [파일이름]
+```
+
+## top
+시스템 모니터링
+
+```
+top
 ```
 
 ## useradd
