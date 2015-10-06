@@ -84,6 +84,10 @@ scp -P 3000 ~/.ssh/id_rsa.pub user@hostname:/id_rsa.pub
 
 비밀번호 인증일 경우 `-o IdentitiesOnly=ture`를 추가한다.
 
+# stat
+파일의 메타 정보 조회
+
+
 ## tar
 압축:
 
