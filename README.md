@@ -76,17 +76,26 @@ $ rsync -zvr --delete --exclude .git . root@hostname:/업로드할 경로
 
 
 ## scp
+
 원격지로 로컬 파일 이동
+
+포트 설정하여 전송:
 
 ```
 scp -P 3000 ~/.ssh/id_rsa.pub user@hostname:/id_rsa.pub
 ```
 
-비밀번호 인증일 경우 `-o IdentitiesOnly=ture`를 추가한다.
+폴더 전송:
+
+```
+scp -r ./local-folder user@hostname:/remote-folder
+```
+
+리모트 서버가 비밀번호 인증일 경우 `-o IdentitiesOnly=ture`를 추가한다.
 
 # stat
 파일의 메타 정보 조회
-
+g
 
 ## tar
 압축:
