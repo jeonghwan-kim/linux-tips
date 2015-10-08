@@ -94,8 +94,7 @@ scp -r ./local-folder user@hostname:/remote-folder
 리모트 서버가 비밀번호 인증일 경우 `-o IdentitiesOnly=ture`를 추가한다.
 
 # stat
-파일의 메타 정보 조회
-g
+파일의 메타 정보 조회 
 
 ## tar
 압축:
