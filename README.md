@@ -12,6 +12,14 @@ ab -r -n 100000 -c 1000 <url>
 [참고](http://zgadzaj.com/benchmarking-nodejs-basic-performance-tests-against-apache-php)
 
 
+# curl
+
+파일 다운로드:
+
+```
+curl -O url
+```
+
 ## du
 현재 폴더의 용량 계산:
 
