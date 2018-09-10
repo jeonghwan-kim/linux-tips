@@ -1,3 +1,5 @@
+> Deprecated:  https://github.com/jeonghwan-kim/tips 으로 이동
+
 Linux Tips
 ==========
 리눅스 명령어 사용법과 팁을 정리한 문서. (알파벳순 오름차순)
